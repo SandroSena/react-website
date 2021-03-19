@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
-function Cards() {
+const Cards = () => {
   return (
     <div className='cards'>
       <h1>Check out these EPIC Destinations!</h1>
@@ -46,6 +46,6 @@ function Cards() {
       </div>
     </div>
   );
-}
+};
 
 export default Cards;
